@@ -1,4 +1,4 @@
-## JMeter LLM Gemini Listener
+## JMeter Narrator
 
 **Purpose**: A custom JMeter listener that aggregates test results and calls Google's Gemini LLM to generate human-readable performance observations, summaries, and recommendations from `.jtl` data.
 
@@ -6,7 +6,7 @@
 
 - **Live aggregation** of response times, error rates, throughput, and per-label stats while the test runs.
 - **One-click LLM analysis** button in the listener GUI.
-- Uses **Gemini** (default `gemini-1.5-flash`) for performance analysis.
+- Uses **Gemini** (default `gemini-2.5-flash`) for performance analysis.
 - API key is read from environment or JMeter properties (not stored in the test plan).
 
 ### Build
@@ -51,7 +51,7 @@ gemini.model=gemini-1.5-flash
 
 ### Usage
 
-1. Add the **LLM Performance Analysis (Gemini)** listener to your test plan.
+1. Add the **JMeter Narrator** listener to your test plan.
 2. Run your test as usual; the listener will aggregate metrics.
 3. After or during the test, click **Run Analysis Now** in the listener GUI.
 4. The Gemini-generated Markdown analysis will appear in the output area.
