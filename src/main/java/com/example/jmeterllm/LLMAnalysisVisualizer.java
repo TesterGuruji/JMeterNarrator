@@ -48,7 +48,7 @@ public class LLMAnalysisVisualizer extends AbstractVisualizer {
     }
 
     public String getStaticLabel() {
-        return "LLM Performance Analysis (Gemini)";
+        return "JMeter Narrator";
     }
 
     @Override

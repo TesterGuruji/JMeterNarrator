@@ -25,7 +25,7 @@ The plugin JAR will be created in the `target` directory (for example, `target/j
 2. Copy the generated JAR from `target/` to your JMeter `lib/ext` directory.
 3. Restart JMeter.
 4. In your Test Plan, add:
-   - `Add` → `Listener` → `LLM Performance Analysis (Gemini)`.
+   - `Add` → `Listener` → `JMeter Narrator`.
 
 ### Configure Gemini
 
