@@ -6,17 +6,14 @@
         "screenshotUrl" : "https://github.com/TesterGuruji/JMeterNarrator/tree/plugin-code/src/main/resources",
         "helpUrl": "https://github.com/TesterGuruji/JMeterNarrator/blob/plugin-code/README.md",
         "vendor": "TesterGuruji",
-        "markerClass": "",
-        "installerClass": "",
+        "markerClass": "com.example.jmeterllm.LLMAnalysisMarker",
+        "installerClass": "com.example.jmeterllm.LLMAnalysisVisualizer",
         "versions" : {
             "0.1" : {
-                "downloadUrl" : "https://my.site.com/demoPlugin/my-beta-plugin-id-0.1.jar",
+                "downloadUrl" : "",
                 "libs" : {
-                    "graph-builder" : "https://other.site.com/graph-builder-0.2.jar"
                 },
                 "depends" : [
-                    "jpgc-graphs-basic",
-                    "jpgc-graphs-additional"
                 ]
             }
         }
